@@ -1,3 +1,22 @@
-body{
+/* pseudoselector */
+:root {
+  font-size: 16px;
+}
+/* selector para todo el documento */
+* {
+  background-color: white;
+}
+
+/* body {
   background-color: aqua;
+} */
+
+/*asignar clase - son predominantes clases antes que tag*/
+.test {
+  color: white;
+}
+
+/*selector de id - por especificidad predomina*/
+#team {
+  padding: 70px;
 }
