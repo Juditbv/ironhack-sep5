@@ -3,9 +3,9 @@ const minAgeDrinking = parseInt(
 );
 
 if (minAgeDrinking < 18) {
-  alert("No puedes beber alcohol!");
-} else if (minAgeDrinking > 70) {
-  alert("Puedes beber alcohol pero no te pases!");
+  console.log("No puedes beber alcohol!");
+} else if (minAgeDrinking >= 70) {
+  console.log("Puedes beber alcohol pero no te pases!");
 } else {
   console.log("Puede beber sin problemas.");
 }
